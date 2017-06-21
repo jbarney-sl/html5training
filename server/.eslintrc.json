@@ -1,0 +1,16 @@
+{
+    "extends": ["standard", "plugin:jest/recommended"],
+    "plugins": [
+        "import",
+        "standard",
+        "promise",
+        "jest"
+    ],
+    "env": {
+        "jest": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "yoda": "off"
+    }
+}
